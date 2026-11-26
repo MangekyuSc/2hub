@@ -4558,8 +4558,8 @@ local ok16, result12 = pcall(function()
   local hub = tab7:Card("VEYRONIX HUB")
   hub:Label("Veyronix Hub  ·  Free & Open  ·  No key required")
   hub:Label("Game: Throw Food For Animals")
-  hub:Button("💬 Discord  —  discord.gg/ZN4jtyPNHG  (click to copy)", function()
-    local link = "https://discord.gg/CtgwhkBda"
+  hub:Button("💬 Discord  — (click to copy)", function()
+    local link = "https://discord.gg/BMY57Eajbd"
     if type(setclipboard) == "function" then
       setclipboard(link)
       instance23:Toast("Discord", "link copied to clipboard!", 3)
