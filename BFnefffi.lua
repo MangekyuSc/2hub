@@ -17865,7 +17865,7 @@ task.spawn(function()
 			make(host, "Button", {
 				Title = "Copy Discord invite",
 				Callback = function()
-					if string.find(DISCORD_INVITE, "https://discord.gg/CtgwhkBda", 1, true) then
+					if string.find(DISCORD_INVITE, "https://discord.gg/BMY57Eajbd", 1, true) then
 						notice("No Discord invite set yet")
 					elseif setclipboard then
 						setclipboard(DISCORD_INVITE)
